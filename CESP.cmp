@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 1/27/2014 5:20:01 PM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 1/28/2014 11:30:21 AM
 
 BeginCmp
 TimeStamp = /52E5B997;
@@ -47,6 +47,27 @@ TimeStamp = /52E68995;
 Reference = C7;
 ValeurCmp = .01µF;
 IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E7FBEE;
+Reference = C8;
+ValeurCmp = 10µF;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E7FBC1;
+Reference = C9;
+ValeurCmp = .1µF;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E7FBB4;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LED-0603;
 EndCmp
 
 BeginCmp
@@ -106,6 +127,27 @@ IdModule  = SM1206;
 EndCmp
 
 BeginCmp
+TimeStamp = /52E7FBCC;
+Reference = R7;
+ValeurCmp = 4K7;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E7FBE8;
+Reference = R8;
+ValeurCmp = 180K;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E7FBA5;
+Reference = R9;
+ValeurCmp = 330;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
 TimeStamp = /52E5B921;
 Reference = U1;
 ValeurCmp = 7555;
@@ -124,6 +166,20 @@ TimeStamp = /52E69C4C;
 Reference = U3;
 ValeurCmp = 7805-REG;
 IdModule  = DPAK3;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E7FB88;
+Reference = U4;
+ValeurCmp = 7555;
+IdModule  = TSSOP-8;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E80542;
+Reference = U5;
+ValeurCmp = TL082;
+IdModule  = MSOP_8;
 EndCmp
 
 EndListe
