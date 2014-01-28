@@ -1,4 +1,4 @@
-update=1/27/2014 5:50:07 PM
+update=1/27/2014 5:57:23 PM
 version=1
 last_client=kicad
 [cvpcb]
@@ -79,5 +79,6 @@ LibName9=dip_sockets
 LibName10=pga_sockets
 LibName11=valves
 LibName12=CE_SolderingPracticeModule
+LibName13=SPIvsSPI
 [general]
 version=1
